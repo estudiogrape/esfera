@@ -29,7 +29,7 @@ export default function Seguro() {
                                         <h4 className="flex text-[0.5rem] md:text-[0.8rem] lg:text-sm xl:text-base font-semibold leading-tight mb-1">
                                             {serviceSingle.title}
                                         </h4>
-                                        <h1 className="text-[0.5rem] md:text-[0.6rem] lg:text-xs xl:text-sm leading-tight">{serviceSingle.text}</h1>
+                                        <h1 className="text-[0.6rem] lg:text-xs xl:text-sm leading-tight">{serviceSingle.text}</h1>
                                     </div>
                                 </div>
                             </div>
