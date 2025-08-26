@@ -1,8 +1,8 @@
 const ContentLinks = {
     titleSite: 'imagem',
 
-	email: 'mailto:contato@esfera.com.br',
-    emailShow: 'contato@esfera.com.br',
+	email: 'mailto:contato@gestaoesfera.com.br',
+    emailShow: 'contato@gestaoesfera.com.br',
 
 	phone: 'tel:+552100000000',
     phoneShow: '(21) 0000-0000',
