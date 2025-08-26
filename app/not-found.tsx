@@ -1,11 +1,7 @@
-
-import HeaderTitle from './parts/estrutura/headerTitle';
-
 export default function NotFound() {
     return (
         <div>
             <main>
-                <HeaderTitle title="Não Encontrado" />
                 <div className="flex flex-col items-center justify-between pt-10 pb-20">
                     <div className="flex flex-col">
                         <span className="text-lg md:text-xl text-center font-bold my-10 text-zinc-700 uppercase font-barlow">Esfera</span>
