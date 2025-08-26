@@ -18,7 +18,7 @@ export default function QuemSomos() {
                             
                             <div className=" pt-0 flex items-center justify-center md:justify-start ">
                                 <Link href="/contato">
-                                    <button type="button" className="flex flex-row gap-2 justify-center rounded-lg  py-2 px-8 md:px-6 lg:py-2 xl:py-4 lg:px-12  bg-cyan-400  text-black items-center text-xs md:text-base lg:text-2xl uppercase font-medium">
+                                    <button type="button" className="flex flex-row gap-2 justify-center rounded-lg  py-2 px-8 md:px-6 lg:py-2 xl:py-3 lg:px-12  bg-cyan-400  text-black items-center text-xs md:text-base lg:text-lg uppercase font-medium">
                                         <FontAwesomeIcon icon={faPhone} className=" h-4  w-4 lg:h-6 lg:w-6 mr-2" />
                                         <span>TENHO INTERESSE!</span>
                                     </button>

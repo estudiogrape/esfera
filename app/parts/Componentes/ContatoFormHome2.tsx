@@ -62,7 +62,7 @@ export default function ContatoForm({ home }: ContactProps) {
                 <input {...register("email")} className={`border-2 border-trueGray-200 text-base lg:text-lg 2xl:text-xl font-light py-3 md:py-3 lg:py-4 block w-full rounded-xl  placeholder-trueGray-400 outline-none px-4 col-span-1` + (home ? " px-4" : "")} placeholder="E-mail" />
                 <input {...register("telefone")} className={`border-2 border-trueGray-200 text-base lg:text-lg 2xl:text-xl font-light py-3 md:py-3 lg:py-4 block w-full rounded-xl  placeholder-trueGray-400 outline-none px-4 col-span-1` + (home ? " px-4" : "")} placeholder="Telefone" />
             </div>
-            <button className="my-3 flex place-items-center gap-2 md:gap-4 bg-cyan-800 transition-all rounded-lg text-white text-xs md:text-base lg:text-lg  py-2 px-8 md:px-6 lg:py-2 xl:py-4 lg:px-12  font-normal ">
+            <button className="my-3 flex place-items-center gap-2 md:gap-4 bg-cyan-800 transition-all rounded-lg text-white text-xs md:text-base lg:text-lg py-2 px-8 md:px-6 lg:py-2 xl:py-3 lg:px-12  font-normal ">
                 <FontAwesomeIcon icon={faArrowRight} className="w-4 h-4  lg:w-6 lg:h-6 mr-2" />
                 ENVIAR DADOS
             </button>

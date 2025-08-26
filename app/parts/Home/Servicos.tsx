@@ -24,11 +24,11 @@ export default function Seguro() {
                             >
                                 <div className="flex justify-center items-center relative">
                                     <Image src={serviceSingle.img} alt="" className="md:w-full object-cover rounded-lg" />
-                                    <div className="absolute flex flex-col justify-end h-full p-3 md:p-4 xl:p-6">
-                                        <h4 className="flex text-[0.5rem] md:text-[0.8rem] lg:text-sm xl:text-lg font-semibold leading-tight">
+                                    <div className="absolute flex flex-col justify-end h-full p-3 md:p-4 xl:p-5">
+                                        <h4 className="flex text-[0.5rem] md:text-[0.8rem] lg:text-sm xl:text-base font-semibold leading-tight mb-1">
                                             {serviceSingle.title}
                                         </h4>
-                                        <h1 className="text-[0.5rem] md:text-[0.6rem] lg:text-sm xl:text-sm leading-tight">{serviceSingle.text}</h1>
+                                        <h1 className="text-[0.5rem] md:text-[0.6rem] lg:text-xs xl:text-sm leading-tight">{serviceSingle.text}</h1>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ export default function Seguro() {
                         <Link href="/contato">
                             <button
                                 type="button"
-                                className="flex flex-row gap-2 justify-center rounded-lg  py-2 px-8 md:px-6 lg:py-2 xl:py-4 lg:px-8  xl:px-12  bg-cyan-400  text-black items-center text-xs md:text-base lg:text-lg xl:text-xl uppercase font-medium"
+                                className="flex flex-row gap-2 justify-center rounded-lg  py-2 px-8 md:px-6 lg:py-2 xl:py-3 lg:px-8  xl:px-12  bg-cyan-400  text-black items-center text-xs md:text-sm lg:text-base xl:text-lg uppercase font-medium"
                             >
                                 <FontAwesomeIcon
                                     icon={faPhone}
