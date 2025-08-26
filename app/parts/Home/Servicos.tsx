@@ -24,7 +24,7 @@ export default function Seguro() {
                                 className="h-full md:h-full text-white break-words text-sm sm:text-xl md:text-2xl lg:text-4xl  rounded-xl  overflow-hidden "
                             >
                                 <div className="flex justify-center items-center relative">
-                                    <Image src={serviceSingle.img} alt="" className="md:w-full object-cover rounded-lg" />
+                                    <Image src={serviceSingle.img} alt="" className="md:w-full object-cover aspect-square rounded-lg" />
                                     <div className="absolute flex flex-col justify-end h-full p-3 md:p-4 xl:p-5">
                                         <h4 className="flex text-[0.5rem] md:text-[0.8rem] lg:text-sm xl:text-base font-semibold leading-tight mb-1">
                                             {serviceSingle.title}
