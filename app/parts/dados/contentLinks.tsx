@@ -25,9 +25,9 @@ const ContentLinks = {
     site: '',
     siteShow: '',
 
-	maps: 'https://maps.app.goo.gl/5WtYnsXKvUgoDeSN8',
-    address1: 'Rua Exemplo de Souza, QD XX - LT 999 ',
-    address2: 'Bairro: Exemplo - Cidade: Exemplo - Estado: RJ CEP: 00000-000',
+	maps: 'https://maps.app.goo.gl/Kb7fYFoNpR4Z28Hv5',
+    address1: 'AVENIDA P BRIGADEIRO LIMA E SILVA - 1666 - JARDIM 25 DE AGOSTO',
+    address2: ' - SALA 102 - CEP: 25.071-182 - DUQUE DE CAXIAS/RJ',
 };
 
 export default ContentLinks;
