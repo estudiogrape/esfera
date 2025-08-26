@@ -3,6 +3,7 @@ import ImgSobre from "@/public/img/img-sobre.png";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import ContentLinks from "../dados/contentLinks";
 
 export default function QuemSomos() {
     return (
@@ -17,7 +18,7 @@ export default function QuemSomos() {
                             <p className="">Mais que uma prestadora, somos parceiros estratégicos, cuidando de cada detalhe para que nossos clientes cuidem do que realmente importa: vidas.</p>
                             
                             <div className=" pt-0 flex items-center justify-center md:justify-start ">
-                                <Link href="/contato">
+                                <Link href={ContentLinks.whatsapp}>
                                     <button type="button" className="flex flex-row gap-2 justify-center rounded-lg  py-2 px-8 md:px-6 lg:py-2 xl:py-3 lg:px-12  bg-cyan-400  text-black items-center text-xs md:text-base lg:text-lg uppercase font-medium">
                                         <FontAwesomeIcon icon={faPhone} className=" h-4  w-4 lg:h-6 lg:w-6 mr-2" />
                                         <span>TENHO INTERESSE!</span>

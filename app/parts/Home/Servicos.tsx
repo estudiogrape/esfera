@@ -9,6 +9,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import HeaderTitle from "../estrutura/headerTitle";
+import ContentLinks from "../dados/contentLinks";
 
 export default function Seguro() {
     return (
@@ -35,7 +36,7 @@ export default function Seguro() {
                         ))}
                     </div>
                     <div className="flex items-center justify-center md:justify-start  my-4">
-                        <Link href="/contato">
+                        <Link href={ContentLinks.whatsapp}>
                             <button
                                 type="button"
                                 className="flex flex-row gap-2 justify-center rounded-lg  py-2 px-8 md:px-6 lg:py-2 xl:py-3 lg:px-8  xl:px-12  bg-cyan-400  text-black items-center text-xs md:text-sm lg:text-base xl:text-lg uppercase font-medium"

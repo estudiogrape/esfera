@@ -7,8 +7,8 @@ const ContentLinks = {
 	phone: 'tel:+552100000000',
     phoneShow: '(21) 0000-0000',
 
-	whatsapp: 'https://wa.me/5521000000',
-    whatsappShow: '(21) 99999-9999',
+	whatsapp: 'https://wa.me/5521982000869',
+    whatsappShow: '(21)98200-0869',
     
 	facebook: 'https://www.facebook.com/',
     facebookShow: '/',
